@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(73, 255, 255);
+}
+.form-group {
+    padding:  0;
+    background-color: rgb(89, 86, 255);
+    color: rgb(242, 255, 121);
+}
+.form-add {
+    padding: 0 10px;
+}
+.form-add>.addName {
+    text-align: left;
+}
+.form-add>.addPrice {
+    text-align: left;
+}
+.form-add>.addQuantity {
+    text-align: left;
+}
+.form-add>div {
+    margin: 5px 0;
+    text-align: center;
+}
+.form-add>div>input {
+    float: right;
+    width: 480px;
+}
+.form-edit {
+    padding: 5px 10px;
+}
+.form-edit>div {
+    padding: 5px 0;
+}
+.form-edit>div:last-child {
+    text-align: center;
+}
+.form-edit>div>input {
+    float: right;
+    width: 430px;
+}
+.timkiem {
+    padding: 10px 5px;
+}
+.timkiem>.search {
+    text-align: center;
+}
+.timkiem>.search>input {
+    width: 500px;
+}
+.addSP {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.table-product {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #222;
+}
+.table-product>thead>tr:first-child {
+    background-color: aqua;
+    border: 2px solid #555;
+}
+.table-product>thead>tr>th {
+    padding: 20px ;
+}
+.table-product>tbody>tr>td:first-child, .table-product>tbody>tr>td:last-child {
+    text-align: center;
+}
+.table-product>tbody>tr:hover {
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+    padding: 5px;
+}
+
+.table-product>tbody>tr>td:nth-child(3), .table-product>tbody>tr>td:nth-child(4), .table-product>tbody>tr>td:nth-child(5) {
+    text-align: right
+}
+.edit-none{
+    display: none;
+}
+.add-none{
+    display: none;
+}
+.d-none {
+    display: none;
+}
+.table-product, thead, tr, th {
+    padding: 5px;
+    border: 1px solid black;
+}
+.table-product, tbody, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+.btn {
+    cursor: pointer;
+    background-color: #49ffff;
+    padding: 6px;
+    border-radius: 6px;
+    color: black;
+    line-height: 20px;
+    border: 1px solid black;
+}
+.btn:hover {
+    background-color: rgb(89, 86, 255);
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    border: 1px solid white;
+}
+#keyword {
+    padding: 5px;
+}
+.stick {
+    padding: 10px;
+    cursor: pointer;
+}
+.stick-input{
+    padding: 10px;
+}
+.input-edit {
+    padding: 3px;
+    width: 120px;
+}
+.remove:hover {
+    background-color: red;
+    color: white;
+
+}
+.green:hover {
+    background-color: green;
+    color: white;
+}

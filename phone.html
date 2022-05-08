@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="phone.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>QUẢN LÝ SẢN PHẨM ĐIỆN THOẠI</h1>
+        </div>
+        <div class="form-group">
+
+            <div class="form-add add-none">
+                <div class="addName stick">
+                    <label for="addName">Nhập tên sản phẩm thêm vào :</label>
+                    <input type="text" id="addName" class="stick-input">
+                </div>
+                <div class="addPrice stick">
+                    <label for="addPrice">Nhập giá sản phẩm thêm vào:</label>
+                    <input type="number" id="addPrice" class="stick-input">
+                </div>
+                <div class="addQuantity stick">
+                    <label for="addQuantity">Nhập số lượng sản phẩm thêm vào:</label>
+                    <input type="number" id="addQuantity" class="stick-input">
+                </div>
+                <div>
+                    <button type="button" onclick="addProduct()" class="btn">Update</button>
+                    <button type="button" onclick="reset()"  class="btn remove">Cancel</button>
+                </div>
+            </div>
+            <div class="timkiem">
+                <div class="search">
+                    <button  class="btn" >Tìm kiếm</button>
+                    <input type="text" id="keyword" oninput="productSearch()">
+                </div>
+                <div class="addSP">
+                    <button type="button" onclick="btnAdd()"  class="btn">Thêm sản phẩm</button>
+                </div>
+            </div>
+        </div>
+        <div class="table">
+            <table class="table-product" >
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Giá sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th id="money">Thành tiền</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                </tbody>
+                <tr>
+                    <th colspan="2" >Tổng tiền :</th>
+                    <th colspan="3" id="productTotal"></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+</body>
+<script src="phone.js"></script>
+
+</html>
