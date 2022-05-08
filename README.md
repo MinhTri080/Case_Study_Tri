@@ -1,7 +1,6 @@
-# Case_Study_Tri
-link sản phẩm: https://minhtri080.github.io/Case_Study_Tri/phone.html
-# Product Management 
-Author: Lê Minh  (Me)
+
+# Phone Management 
+Author: Minh Trí  (Me)
 
 Language: HTML (HyperText Markup Language), CSS (Cascading Style Sheets), JavaScript.
 
